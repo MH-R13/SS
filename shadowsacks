@@ -1,0 +1,182 @@
+[
+  {
+    "server": "213.183.51.163",
+    "server_port": 810,
+    "password": "C1eoeuwHebNf17tDoDxc",
+    "method": "chacha20-ietf-poly1305",
+    "remarks": "Netherlands 🇳🇱 ",
+    "route": "all",
+    "remote_dns": "1.0.0.1",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "51.15.0.113",
+    "server_port": 989,
+    "password": "f8f7aCzcPKbsF8p3",
+    "method": "aes-256-cfb",
+    "remarks": "Netherlands 🇳🇱 2",
+    "route": "all",
+    "remote_dns": "1.0.0.1",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "193.108.118.36",
+    "server_port": 8882,
+    "password": "kDWvXYZoTBcGkC4",
+    "method": "aes-256-gcm",
+    "remarks": "Germany 🇩🇪",
+    "route": "all",
+    "remote_dns": "1.0.0.1",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "49.12.203.80",
+    "server_port": 40960,
+    "password": "6kA7b3f9Aw2508erQ3W7D4",
+    "method": "aes-256-gcm",
+    "remarks": "Germany🇩🇪2",
+    "route": "all",
+    "remote_dns": "1.0.0.1",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "185.225.19.64",
+    "server_port": 50003,
+    "password": "8460400130",
+    "method": "aes-256-cfb",
+    "remarks": "Romania 🇷🇴 ",
+    "route": "all",
+    "remote_dns": "1.0.0.1",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "217.182.199.168",
+    "server_port": 5500,
+    "password": "KixLvKzwjekG00rm",
+    "method": "aes-256-gcm",
+    "remarks": "France 🇫🇷",
+    "route": "all",
+    "remote_dns": "1.0.0.1",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "51.159.30.61",
+    "server_port": 812,
+    "password": "G!yBwPWH3Vao",
+    "method": "chacha20-ietf-poly1305",
+    "remarks": "France 🇫🇷 2",
+    "route": "all",
+    "remote_dns": "1.0.0.1",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "178.62.16.161",
+    "server_port": 811,
+    "password": "Ultr@r00t_2017",
+    "method": "chacha20-ietf-poly1305",
+    "remarks": "United Kingdom 🇬🇧",
+    "route": "all",
+    "remote_dns": "1.0.0.1",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "35.177.29.114",
+    "server_port": 812,
+    "password": "G!yBwPWH3Vao",
+    "method": "chacha20-ietf-poly1305",
+    "remarks": "United Kingdom 🇬🇧 2",
+    "route": "all",
+    "remote_dns": "1.0.0.1",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "38.107.226.51",
+    "server_port": 811,
+    "password": "Ultr@r00t_2017",
+    "method": "chacha20-ietf-poly1305",
+    "remarks": "USA 🇺🇸 San Francisco",
+    "route": "all",
+    "remote_dns": "1.0.0.1",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "5.188.0.148",
+    "server_port": 811,
+    "password": "Ultr@r00t_2017",
+    "method": "chacha20-ietf-poly1305",
+    "remarks": "USA 🇺🇸 New York",
+    "route": "all",
+    "remote_dns": "1.0.0.1",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "198.57.27.61",
+    "server_port": 811,
+    "password": "Ultr@r00t_2017",
+    "method": "chacha20-ietf-poly1305",
+    "remarks": "Canada 🇨🇦",
+    "route": "all",
+    "remote_dns": "1.0.0.1",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  }
+]
