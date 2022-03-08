@@ -1,1 +1,142 @@
-c3M6Ly9ZV1Z6TFRJMU5pMW5ZMjA2VUVOdWJrZzJVMUZUYm1adlV6STNAMTkzLjEwOC4xMTguMzQ6ODA5MSNHZXJtYW55JTIwJUYwJTlGJTg3JUE5JUYwJTlGJTg3JUFBCnNzOi8vWVdWekxUSTFOaTFuWTIwNlMybDRUSFpMZW5kcVpXdEhNREJ5YlFAMjE3LjE4Mi4xOTkuMTY4OjU1MDAjRnJhbmNlJTIwJUYwJTlGJTg3JUFCJUYwJTlGJTg3JUI3CnNzOi8vWVdWekxUSTFOaTFuWTIwNk5tdEJOMkl6WmpsQmR6STFNRGhsY2xFelZ6ZEVOQUA0OS4xMi4yMDMuODA6NDA5NjAjR2VybWFueSVGMCU5RiU4NyVBOSVGMCU5RiU4NyVBQTIKc3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwVmJIUnlRSEl3TUhSZk1qQXhOd0A1LjE4OC4wLjE0ODo4MTEjVVNBJTIwJUYwJTlGJTg3JUJBJUYwJTlGJTg3JUI4JTIwTmV3JTIwWW9yawpzczovL1lXVnpMVEkxTmkxblkyMDZVRU51YmtnMlUxRlRibVp2VXpJM0AxOTMuMTA4LjExOC4zNDo4MDkxI0dlcm1hbnklMjAlRjAlOUYlODclQTklRjAlOUYlODclQUEKc3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwRE1XVnZaWFYzU0dWaVRtWXhOM1JFYjBSNFl3QDIxMy4xODMuNTEuMTYzOjgxMCNOZXRoZXJsYW5kcyUyMCVGMCU5RiU4NyVCMyVGMCU5RiU4NyVCMSUyMApzczovL1kyaGhZMmhoTWpBdGFXVjBaaTF3YjJ4NU1UTXdOVHBISVhsQ2QxQlhTRE5XWVc4QDUxLjE1OS4zMC42MTo4MTIjRnJhbmNlJTIwJUYwJTlGJTg3JUFCJUYwJTlGJTg3JUI3JTIwMgpzczovL1kyaGhZMmhoTWpBdGFXVjBaaTF3YjJ4NU1UTXdOVHBWYkhSeVFISXdNSFJmTWpBeE53QDM4LjEwNy4yMjYuNTE6ODExI1VTQSUyMCVGMCU5RiU4NyVCQSVGMCU5RiU4NyVCOCUyMFNhbiUyMEZyYW5jaXNjbwpzczovL1lXVnpMVEkxTmkxalptSTZPRFEyTURRd01ERXpNQUAxODUuMjI1LjE5LjY0OjUwMDAzI1JvbWFuaWElMjAlRjAlOUYlODclQjclRjAlOUYlODclQjQlMjAKc3M6Ly9ZV1Z6TFRJMU5pMWpabUk2WmpobU4yRkRlbU5RUzJKelJqaHdNd0A1MS4xNS4wLjExMzo5ODkjTmV0aGVybGFuZHMlMjAlRjAlOUYlODclQjMlRjAlOUYlODclQjElMjAyCnNzOi8vWTJoaFkyaGhNakF0YVdWMFppMXdiMng1TVRNd05UcFZiSFJ5UUhJd01IUmZNakF4TndAMTk4LjU3LjI3LjYxOjgxMSNDYW5hZGElMjAlRjAlOUYlODclQTglRjAlOUYlODclQTYKc3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwVmJIUnlRSEl3TUhSZk1qQXhOd0AxNzguNjIuMTYuMTYxOjgxMSNVbml0ZWQlMjBLaW5nZG9tJTIwJUYwJTlGJTg3JUFDJUYwJTlGJTg3JUE3CnNzOi8vWTJoaFkyaGhNakF0YVdWMFppMXdiMng1TVRNd05UcEhJWGxDZDFCWFNETldZVzhAMzUuMTc3LjI5LjExNDo4MTIjVW5pdGVkJTIwS2luZ2RvbSUyMCVGMCU5RiU4NyVBQyVGMCU5RiU4NyVBNyUyMDI=
+⁭⁫⁪⁫⁬⁭⁫⁪⁫⁬, [3/8/2022 3:45 PM]
+{
+  "dns": {
+    "disableFallbackIfMatch": true,
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      {
+        "address": "https://1.0.0.1/dns-query",
+        "concurrent": true
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "port": 9050,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true,
+        "metadataOnly": false,
+        "routeOnly": true
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "0.0.0.0",
+      "port": 8118,
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": true
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true,
+        "metadataOnly": false,
+        "routeOnly": true
+      },
+      "tag": "http"
+    },
+    {
+      "listen": "0.0.0.0",
+      "port": 6451,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "1.0.0.1",
+        "network": "tcp,udp",
+        "port": 53
+      },
+      "tag": "dns-in"
+    }
+  ],
+  "log": {
+    "loglevel": "error"
+  },
+  "outbounds": [
+    {
+      "domainStrategy": "AsIs",
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "193.108.118.34",
+            "method": "aes-256-gcm",
+            "password": "PCnnH6SQSnfoS27",
+            "port": 8091
+          }
+        ]
+      },
+      "tag": "proxy-global-4150"
+    },
+    {
+      "protocol": "freedom",
+      "tag": "direct"
+    },
+    {
+      "protocol": "freedom",
+      "tag": "bypass"
+    },
+    {
+      "protocol": "blackhole",
+      "tag": "block"
+    },
+    {
+      "protocol": "dns",
+      "settings": {
+        "userLevel": 1
+      },
+      "tag": "dns-out"
+    }
+  ],
+  "policy": {
+    "levels": {
+      "1": {
+        "connIdle": 30
+      }
+    },
+    "system": {
+      "statsOutboundDownlink": true,
+      "statsOutboundUplink": true
+    }
+  },
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "inboundTag": [
+          "dns-in"
+        ],
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "193.108.118.34"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "255.255.255.255"
+        ],
+        "outboundTag": "block",
+        "type": "field"
+      }
+    ]
+  },
+  "stats": {}
+}
